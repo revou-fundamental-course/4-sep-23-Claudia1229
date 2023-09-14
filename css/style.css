@@ -1,0 +1,68 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #4682A9;
+    color: #F6F4EB;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+input {
+    padding: 6px;
+    border: 1px solid #4682a9;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #4682A9;
+    color:antiquewhite;
+    
+
+}
+
+.m1 {
+    margin-right: 10px;
+}
+
+input:focus {
+    border-color: #4682A9;
+}
+
+button:hover {
+    color: black;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.LuasInputSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8px;
+}
